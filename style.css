@@ -1,0 +1,62 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #6366f1, #06b6d4);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #1e293b;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+}
+
+.module {
+  background: #1e293b;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.review {
+  background: #334155;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 15px 25px;
+  border: none;
+  background: #22c55e;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
